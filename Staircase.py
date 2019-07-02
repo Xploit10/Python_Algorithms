@@ -1,5 +1,3 @@
-
-
 def staircase(n):
 	complete = False
 	while complete != True:
