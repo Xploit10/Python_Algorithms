@@ -1,13 +1,11 @@
 def staircase(n):
-	complete = False
-	while complete != True:
-		h = 1
+	h = 1
+	while h != (n + 1):
 		for index in range(n):
 			print(' ' * (n-h) +'#' * h)
 			h += 1 
-		complete = True
+			print(h)
+
 
 n = 6
 staircase(n)
-
-
