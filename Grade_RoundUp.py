@@ -8,7 +8,6 @@ def gradeCheck(grades):
 		else:
 			check = (40 - grades[index]) % 5
 			if check < 3:
-				print(grades[index] + check)
 				final_grades.append(grades[index] + check)
 			elif check == 3 or check > 3:
 				final_grades.append(grades[index])
